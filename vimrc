@@ -58,4 +58,10 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 Plug 'valloric/youcompleteme', {'do': './install.py'}
 
+Plug 'scrooloose/nerdtree'
+
 call plug#end()
+
+"Fixes mouse issue using Alacritty terminal
+
+set ttyouse=sgr
